@@ -1,0 +1,282 @@
+@media screen and (max-width: 992px){
+    
+    /* navigation bar */
+    .header .container-fluid{
+        background-color: black;
+    }
+    .header .container-fluid .row{
+        width: 100%;
+        margin: auto;
+        padding: 25px 0px;
+    }
+    .header .container-fluid .row ul{
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .header .container-fluid .logo h3{
+        color: #ffffff!important;
+    }
+    .mobile_button{
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+    .mobile_button i,h3{
+        color:rgba(255, 255, 255, 0.5)!important;
+    }
+    /* bottom header */
+    .bottom_header{
+        text-align: center;
+        position: relative;
+        width:85%;
+        margin: auto;
+    }
+    .bottom_header .left h3{
+        color: black!important;
+    }
+    .bottom_header .left{
+        z-index: 999;;
+    }
+    .bottom_header .right{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+    }
+    .bottom_header h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .bottom_header p{
+        font-size: 16px;
+
+    }
+    
+    /* end of bottom header */
+    /* about part */
+
+    .services .row{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    .about_part .left img{
+        width: 100%;
+        height: 100%;
+    }
+    .services .row h3{
+        color: black!important;
+    }
+    /* end of about part */
+    /* services part */
+    .imageBox #number h3{
+        font-size: 40px;
+    }
+    .imageBox #number{
+        top: 40px;
+    }
+    /* end of services part */
+    /* reservation part */
+    .reservation_part .textbox{
+        margin-left: 10px;
+    }
+    .reservation_part .col-lg-2{
+        display:none;
+    }
+    /* artist part */
+    .artist_part .row div:first-child{
+        display: none;
+    }
+    /* end of artist part */
+    /* footer */
+    .footer{
+        height: 100%;
+    }
+    /* end of footer */
+
+    /* services html design */
+    .header .bottomservices{
+        top: 50%;
+        left: 5%;
+        position: absolute;
+    }
+    /* contact us html */
+    .contactWays .row h3{
+        color: black!important;
+    }
+    .contactWays .row{
+        width: 95%;
+        margin: auto;
+    }
+    .contactWays .map .col-lg-6:last-child{
+        padding-right: 10px;
+    }
+    /* blog part */
+    .blog_part .col-lg-6 h3{
+        color: black!important;
+        display: block;
+    }
+    .blog_part .recent h3{
+        font-size: 18px;
+        color: #000000!important;
+        padding-right: 10px;
+    }
+    .blog_part{
+        width: 95%;
+        margin: auto;
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    .blog_part img{
+        width: 100%;
+        height: 50%;
+    }
+    .blog_part .recent img{
+        width: 80%;
+        height: 60%;
+    }
+   
+
+
+
+
+}
+
+ @media screen and (max-width: 768px){
+  
+
+
+    /* bottom header */
+
+    .bottom_header{
+        text-align: center;
+        position: relative;
+        width:85%;
+        margin: auto;
+        
+    } 
+    .bottom_header .left h3{
+        color: black!important;
+        font-size: 16px;
+    }
+    .bottom_header .left h1{
+        font-size: 20px;
+    }
+    .bottom_header .left p{
+        font-size: 12px;
+    }
+
+    .bottom_header .left{
+        z-index: 999;;
+    }
+    .bottom_header .right{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80vh;
+        width: 100%;
+    }
+    .bottom_header h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .bottom_header p{
+        font-size: 16px;
+
+    }
+    .bottom_header img{
+        width: 80%;
+        height: 80%;
+    }
+    @keyframes move{
+        100%{
+            transform: scale(1.1, 1.1);
+        }
+    }
+    @keyframes moving{
+        100%{
+            font-size: 32px;
+        }
+    }
+  
+    /* end of bottom header */
+    /* about part */
+    .about_part{
+        width: 80%;
+        height: 150vh;
+        margin: auto;
+    }
+    .services .row h3{
+        color: black!important;
+    }
+    /* end of about part */
+    /* services part */
+    .imageBox #number h3{
+        font-size: 60px;
+    }
+    .imageBox #number{
+        top: 40px;
+    }
+    /* end of services part */
+    /* atist part */
+    .artist_part .row div{
+        display: none;
+    }
+    .artist_part .row div:first-child{
+        display: block;
+    }
+    /* end of artist part */
+    /* happy part */
+    .happy_part .col-lg-5 img{
+        display: none;
+    }
+    .happy_part .row:first-child{
+        padding: 0px 40px;
+    }
+    .happy_part .row h1{
+       display: none;
+    }
+    .happy_part .row h2{
+        font-size: 28px;
+    }
+    /* end of happy part */
+    /* footer */
+    .footer .row h2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .footer{
+        height: 100%;
+    }
+    /* services html design */
+    .header .bottomservices{
+        top: 50%;
+        left: 5%;
+        position: absolute;
+    }
+    /* contact html design */
+    .contactWays .row .col-xs-12{
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    .contactWays .map .col-xs-12:last-child{
+        margin: auto;
+        padding: 0;
+        width: 80%;
+    }
+     /* blog part */
+     .blog_part .col-lg-6 h3{
+        margin-top: 30px;
+    }
+    .blog_part img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog_part .recent img{
+        width: 80%;
+        height: 80%;
+    }
+
+
+}
